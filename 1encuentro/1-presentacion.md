@@ -79,8 +79,8 @@ Se organizará el curso en 3 encuentros:
 
 #### Posición
 
-* Prof. Asistente [@FAMAF](www.famaf.unc.edu.ar)
-* Inv. Asistente [@CONICET](www.conicet.gov.ar)
+* Prof. Asistente [@FAMAF](http://www.famaf.unc.edu.ar)
+* Inv. Asistente [@CONICET](http://www.conicet.gov.ar)
 
 #### Realidad
 
