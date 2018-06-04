@@ -56,5 +56,14 @@ Se organizará el curso en 3 encuentros:
 ## Más material!
 
 * famaf.unc.edu.ar/~pperez1/pages/docencia
-![](img/1-web.png)
-* 
+* github.com/pap84/cim-fiuner-2018
+
+## Herramientas
+
+* Python
+* Jupyter Notebook
+* Slack <- *nuestro canal principal de comunicación!*
+* nodeberíaescribiracáquetambiénsepuedematlab
+* Editor LaTeX, Markdown o reST
+* muchas ganas de procastinar
+* google <- *todo le preguntan a él!*
