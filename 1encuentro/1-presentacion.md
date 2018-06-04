@@ -2,16 +2,16 @@
 
 ## Presentación del curso
 
-### P. Pérez
+#### P. Pérez
 
-#### FAMAF (UNC) & IFEG (CONICET)
+###### FAMAF (UNC) & IFEG (CONICET)
 
 ---
 
 ## Carga horaria
 
 * 60 horas, presenciales
-* 30 horas, trabajo en grupos (NO más de 2 personas)
+* 30 horas, trabajo en grupos (<span style="color:red">NO más de 2 personas</span>)
 
 ## Modalidad de trabajo
 
@@ -45,7 +45,7 @@ Se organizará el curso en 3 encuentros:
 ## Material de estudio
 
 * Las filminas no sirven como material de estudio!
-* La clásica, los libros!
+* La clásica, los libros! (<span style="color:red">algunos!</span>)
 	* **Bankman, I.N.** *Handbook of medical image processing and analysis. Second Edition.* Elsevier, USA, 2009.
 	* **Suetens, P.** *Fundamentals of medical imaging. Second Edition.* Cambridge, UK, 2009.
 	* **Bushberg, J.T., Seibert, J.A., Leidholdt E.M. and Boone J.N.** *The essential physics of medical imaging. Second Edition.* Lippincott Williams & Wilkins, USA, 2002.
@@ -62,11 +62,11 @@ Se organizará el curso en 3 encuentros:
 
 * Python 3
 * Jupyter Notebook
-* Slack <- *nuestro canal principal de comunicación!*
-* nodeberíaescribiracáquetambiénsepuedematlab
-* Editor LaTeX, Markdown o reST
+* Slack <- <span style="color:blue">*nuestro canal principal de comunicación!*</span>
+* <span style="color:green">nodeberíaescribiracáquetambiénsepuedematlab</span>
+* Editor LaTeX, Markdown o reST (Atom, SublimeText, Vim, etc.)
 * muchas ganas de procastinar
-* google <- *todo le preguntan a él!*
+* google <- <span style="color:red">*todo le preguntan a él!*</span>
 
 ---
 
