@@ -70,6 +70,38 @@ Se organizará el curso en 3 encuentros:
 
 ---
 
+## `<aboutme>`
+
+#### Formación
+
+* Lic. en Física <- FAMAF, UNC
+* Dr. en Física <- FAMAF, UNC
+
+#### Posición
+
+* Prof. Asistente [@FAMAF](www.famaf.unc.edu.ar)
+* Inv. Asistente [@CONICET](www.conicet.gov.ar)
+
+#### Realidad
+
+* Padre de Camilo (4)
+* Hincha de Racing y Comunicaciones
+* Concordiense por accidente, entrerriano por elección
+* Físico que debería haber sido bioingeniero o tecla
+
+---
+
+## Qué hago?
+
+* procastinar
+* dar clases
+* modelitos con aplicaciones en FM
+* código que intenta ser software en MN
+* un labo de imágenes de RX
+* protopythonista
+
+---
+
 ## Culpables
 
 Este curso es posible gracias a
