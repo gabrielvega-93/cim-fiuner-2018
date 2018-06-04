@@ -60,7 +60,7 @@ Se organizará el curso en 3 encuentros:
 
 ## Herramientas
 
-* Python
+* Python 3
 * Jupyter Notebook
 * Slack <- *nuestro canal principal de comunicación!*
 * nodeberíaescribiracáquetambiénsepuedematlab
