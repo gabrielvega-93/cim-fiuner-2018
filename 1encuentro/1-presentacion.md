@@ -67,3 +67,18 @@ Se organizará el curso en 3 encuentros:
 * Editor LaTeX, Markdown o reST
 * muchas ganas de procastinar
 * google <- *todo le preguntan a él!*
+
+---
+
+## Culpables
+
+Este curso es posible gracias a
+
+* Decano **Diego Campana**
+* Secretario Académico **Javier Adur**
+* Directora de la Maestría **Yanina Atum**
+* Comunidad de la **Facultad de Ingeniería**
+
+---
+
+## <center>*Que comience la función!*</center>
