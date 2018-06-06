@@ -62,7 +62,8 @@ Se organizará el curso en 3 encuentros:
 
 * Python 3
 * Jupyter Notebook
-* Slack <- <span style="color:blue">*nuestro canal principal de comunicación!*</span> https://bit.ly/2Jw2BAF <- enlace de invitación!
+* Slack <- <span style="color:blue">*nuestro canal principal de comunicación!*</span>
+	-  https://bit.ly/2Jw2BAF <- enlace de invitación!
 * <span style="color:green">nodeberíaescribiracáquetambiénsepuedematlab</span>
 * Editor LaTeX, Markdown o reST (Atom, SublimeText, Vim, etc.)
 * muchas ganas de procastinar
