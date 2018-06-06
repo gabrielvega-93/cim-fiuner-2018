@@ -2,8 +2,7 @@
 
 ## 1er encuentro
 
-**Docente:** P. Pérez
-**Días:** 7-9 de junio de 2018
+**Docente:** P. Pérez **| Días:** 7-9 de junio de 2018
 
 ### Temas
 
@@ -43,8 +42,7 @@
 
 ## 2do encuentro
 
-**Docente:** G. Tirao
-**Días:** 21-23 de junio de 2018
+**Docente:** G. Tirao **| Días:** 21-23 de junio de 2018
 
 ### Temas
 
@@ -82,8 +80,7 @@
 
 ## 3do encuentro
 
-**Docente:** P. Pérez
-**Días:** 5-7 de julio de 2018
+**Docente:** P. Pérez **| Días:** 5-7 de julio de 2018
 
 ### Temas
 
