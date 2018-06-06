@@ -27,7 +27,7 @@ Las fechas y el material serán los siguientes:
   - dictado por P. Pérez
   - 5-7 de julio: material aún no disponible
 
-El organigrama y los temas de cada encuentro y clase se pueden encontrar en el [link](https://github.com/pap84/cim-fiuner-2018/blob/master/organizacion.md).
+<center>*El organigrama y los temas de cada encuentro y clase se pueden encontrar en el [link](https://github.com/pap84/cim-fiuner-2018/blob/master/organizacion.md).*</center>
 
 ## Condiciones de regularidad y aprobación
 
