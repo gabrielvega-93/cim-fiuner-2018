@@ -1,0 +1,35 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+%opening
+\title{{\bf Trabajo Práctico II:}\\ \emph{Monte Carlo}}
+\author{P. Pérez}
+
+\footnotetext[1]{Curso: {\emph{Análisis y procesamiento de imágenes radiológicas en el ámbito clínico}}}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Los ejercicios comprenden el capítulo de aplicaciones de las técnicas de simulación Monte Carlo. Los mismos deben ser entregados en formato PDF o en un notebook de Jupyter especificando código de programación utilizado, funciones implementadas y resultados obtenidos. Se aceptarán trabajos realizados en plataformas Matlab y Python.
+\end{abstract}
+
+\section*{Ejercicios}
+
+\begin{enumerate}
+ \item Implementar un método basado en Monte Carlo para determinar la probabilidad de obtener un ``doble 6'' lanzando dos dados.
+ \item Calcular con método Monte Carlo la semilongitud de onda de una onda sinusoidal.
+ \item Calcular con método Monte Carlo la semilongitud de onda de una onda cosenoidal.
+ \item Calcular con método Monte Carlo $\int_{-1}^{1}(2 + u^{3/2}) du$.
+ \item Determinar la eficiencia de cómputo y realizar un estudio de convergencia para calcular con el método Monte Carlo $\int_{1/4}^{4}\frac{1}{\sqrt{2\pi}}e^{-\frac{x^{2}}{2}}dx$. Estimar la desviación estándar en función del número de muestreo.
+ \item Modelar el esperimento de Buffon para estimar el valor de $\pi$, asignando valores que correspondan a los parámetros del problema.
+ \item Realizar una simulación Monte Carlo simple para determinar la distancia total $D_{T}$ y distancia neta $D$ (distancia al punto de partida) luego de 10, 100, 1000 y 10000 pasos de 1 unidad de una partícula moviéndose en un plano.
+ \item Repetir el ejercicio del item anterior para una partícula moviéndose en 3 dimensiones.
+ \item Realizar una simulación Monte Carlo del transporte de partículas en 2D que sólo pueden interactuar de dos modos: absorción o scattering caracterizados por secciones eficaces $\sigma_{A}$ y $\sigma_{S}$ , respectivamente. En particular, se tiene que la distribución angular de $\sigma_{S}$ es isotrópica e independiente de la energía, mientras que $\sigma_{A} = C/E$ , donde $C$ es una constante que satisface la normalización. El problema consiste en calcular la transmisividad de una muestra de espesor L por parte de una haz puntual de partículas de energía inicial $E_{0}$. Fijar valores de absorción (completo depósito local de la energía residual), de modo tal que no se extienda demasiado el tiempo de simulación.
+ \end{enumerate}
+
+\end{document}
