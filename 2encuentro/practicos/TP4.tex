@@ -1,0 +1,31 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+%opening
+\title{{\bf Trabajo Práctico IV:}\\ \emph{Radiodiagnóstico anatómico}}
+\author{P. Pérez}
+
+\footnotetext[1]{Curso: {\emph{Análisis y procesamiento de imágenes radiológicas en el ámbito médico}}}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Los ejercicios comprenden el capítulo de Procesos Estocásticos. Los mismos deben ser entregados en formato PDF o Jupyter Notebook especificando código de programación utilizado, funciones implementadas y resultados obtenidos. Se aceptarán trabajos realizados en plataformas Matlab y Python.
+\end{abstract}
+
+\section*{Ejercicios}
+
+\begin{enumerate}
+ \item  Realizar una simulación determinista (considerando solo absorción exponencial) de la formación de una imagen por contraste de absorción de un cubo de agua dede 10 cm de diámetro y de lado irradiado con un haz paralelo de fotones de 50 keV y tamaño de campo de 10 cm $\times$ 10 cm. (Detección ideal). Graficar perfil central de la imagen e interpretarlo en términos de las propiedades físicas. Repetir el cálculo irradiando desde distintos ángulos. Realice la experiencia irradiando desde 10, 50 y 100 ángulos diferentes. Realice una reconstrucción tomográfica en cada caso y compare y discuta los resultados.
+ \item Repetir el ejercicio del item anterior para un haz incidente de 2 canales energéticos igualmente probables de 50 keV y 30 keV. Analizar y discutir los resultados obtenidos.
+ \item Defina probabilidades de absorción y scattering realistas para un haz de 50 keV y uno de 30 keV y realize una simulación Monte Carlo (ideada por usted) análoga al primer item. Analizar los resultados.
+ \item Simular un set up experimental típico del instrumento de laboratorio, considerando fuente, divergencia del haz desde la fuente, colimador principal, muestra (puede ser un fantoma cilíndrico o cúbico) y detector.
+ \end{enumerate}
+
+
+\end{document}
