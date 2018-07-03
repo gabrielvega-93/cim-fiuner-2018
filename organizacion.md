@@ -84,30 +84,30 @@
 
 ### Temas
 
-* **Módulo 5:** *Radiodiagnóstico metabólico estudiado con simulación Monte Carlo*
-  - Imágenes funcionales
-  - Radiodiagnóstico para fisiología metabólica
-  - Aplicaciones en Cámara Gamma
+* **Módulo 5:** *Radiodiagnóstico estudiado con simulación Monte Carlo I*
+  - Introducción a PENELOPE
+  - Simulación Monte Carlo utilizando PENELOPE
+  - Formación de imágenes de radiodiagnóstico
 
-* **Módulo 6:** *Descripción de configuraciones radiológicas en simulación Monte Carlo*
-  - Parámetros involucrados en la simulación del transporte de radiación
-  - Definición de setups virtuales
-  - Introducción a los códigos PENELOPE v2008 y FLUKA v2011.
+* **Módulo 6:** *Radiodiagnóstico estudiado con simulación Monte Carlo II*
+  - Introducción a FLUKA
+  - Definición de setup virtual en FLUKA
+  - Simulación Monte Carlo de formación de imágenes
 
 
 
 ### Organigrama
 
 * **Jueves 5:**
-  - 9-11: Imágenes funcionales. Radiodiagnóstico para fisiología metabólica. Aplicaciones en Cámara Gamma.
-  - 11-13: Ejercicios prácticos.
-  - 14-16: Parámetros involucrados en la simulación del transporte de radiación. Definición de setups virtuales.
+  - 9-11: Introducción a PENELOPE.
+  - 11-13: PENELOPE: instalación y configuración.
+  - 14-16: Ejemplo de imágen radiográfica utilizando PENELOPE.
   - 16-18: Ejercicios prácticos.
 
 * **Viernes 6:**
-  - 9-11: Introducción al códigos PENELOPE.
-  - 11-13: Ejercicios prácticos.
-  - 14-16: Introducción al código FLUKA.
+  - 9-11: Introducción al código FLUKA.
+  - 11-13: FLUKA: instalación y configuración.
+  - 14-16: Ejemplo de simulación Monte Carlo en FLUKA.
   - 16-18: Ejercicios prácticos.
 
 * **Sábado 7:**

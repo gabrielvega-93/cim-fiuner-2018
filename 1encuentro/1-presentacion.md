@@ -55,7 +55,7 @@ Se organizará el curso en 3 encuentros:
 ---
 ## Más material!
 
-* famaf.unc.edu.ar/~pperez1/pages/docencia
+* www.famaf.unc.edu.ar/~pperez1/pages/docencia
 * github.com/pap84/cim-fiuner-2018
 
 ## Herramientas

@@ -213,8 +213,6 @@ definen -entre tantos- medidas como tensores de valor medio y de
 covarianzas, que permiten obtener características representativas de los
 procesos estocástico.
 
-**Capítulo 1 Manual PENELOPE v. 2008**
-
 
 Procesos estocásticos estacionarios
 -----------------------------------
@@ -271,23 +269,90 @@ memoria”.
 El transporte de radiación como proceso estocástico
 ---------------------------------------------------
 
-**blueIntroducción via secciones eficaces explicando analogía pdf-DCS y
-explicar pag 6-15 Manual PENELOPE v. 2008**
+En la simulación del transporte de radiación por método Monte Carlo, la historia (*track*) de una partícula es vista como una sucesión aleatoria de secuencias de *vuelos* libres que terminan con un evento de interacción donde la partícula puede cambiar su estado (dirección de movimiento y energía cinética) e incluso puede llegar a generar partículas secundarias.
+
+La simulación del transporte de un dado experimento (por ejemplo, un fotón/electrón ingresando en un fantoma de agua) consiste en la generación de historias random. Para realizar esta simulación, es necesario un "*modelo de interacción*", por ejemplo un set de secciones eficaces diferenciales (DCS) para los mecanismos de interacción relevantes o más importantes. Estas DCS determinan las funciones de distribución de probabilidad (PDFs) de las variables random que caracterizan la historia:
+
+1. camino libre entre eventos de interacción sucesivos
+2. tipo de interacción que se realiza
+3. pérdida de energía y deflexión angular en cada evento
+4. *estado inicial de las partículas secundarias emitidas*, si corresponde
+   
+Una vez conocidas las PDFs, las historias pueden ser generadas por medio del uso de métodos de sampleo apropiados. Si el número de historias generadas es lo suficientemente grande, la información cuantitativa del proceso de transporte puede ser obtenida del cálculo de la media de las historias simuladas.
+
+El método Monte Carlo provee la misma información que la ecuación de transporte de Boltzmann, con el mismo modelo de interacción pero más fácil de implementar (Berger, 1963). En particular, la simulación del transporte de radiación en geometrías complejas es fácil de obtener (pagando costo computacional razonable), mientras que el transporte en una simple geometría finita es muy difícil de modelar con la ecuación de transporte.
+
+La desventaja del método Monte Carlo reside en su naturaleza estocástica, ya que todos los resultados se ven afectados por incerteza estadística, pero esta puede ser reducida al precio del costo computacional. En algunas circunstancias especiales, las incertezas estadísticas pueden ser reducidas por medio del uso de técnicas de reducción de varianzas (Rubinstein, 1982; Bielajew y Rogers, 1988).
+
+Elementos de teoría de probabilidad
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+La probabilidad de que una variable aleatoria :math:`x` que toma valores en :math:`x_{min} < x < x_{max}` obtenga valores en el intervalo :math:`(a,b)` queda determinada por :math:`P\{x|a<x<b\}` definido por :math:`n/N` donde :math:`n` es el número de veces que obtuvo un valor en el intervalo y :math:`N` el número total de valores generados cuando :math:`N\rightarrow\infty`.
+
+Ahora bien, la probabilidad de obtener :math:`x` en un intervalo diferencial :math:`dx` alrededor de :math:`x_1` puede ser expresada entonces como
+
+.. math::
+   
+   P\{x | x_1 < x < x_1 + dx\} = p(x_1) dx
+
+donde :math:`p(x)` es la PDF de :math:`x`.
+
+Como la probabilidad debe ser una cantidad no nula y los valores de :math:`x` deben encontrarse en el intervalo :math:`(x_{min},x_{max})`, la PDF debe ser definida positiva y normalizada a la unidad:
+
+.. math::
+   
+   p(x) \geq 0 \text{   y   } \int_{x_{min}}^{x_{max}} p(x)dx = 1
+
+y toda función que satisfaga esta condición puede ser considerada una PDF.
+
+En simulaciones Monte Carlo se utiliza mucho la distribución normal:
+
+.. math::
+   
+   U_{x_{min}, x_{max}} (x) \equiv \left\{ 
+                                    \begin{array}{lc}
+                                    1/(x_{max} - x_{min}) & si x_{min} \leq x \leq x_{max} \\
+                                    0                     & x < x_{min} \,\,\, \text{o} \,\,\, x_{max} < x
+                                    \end{array}
+                                   \right.
+
+Esta definición incluye distribuciones como la función de Dirac, e incluso una PDF de una variable random :math:`x` que puede tomar valores discretos :math:`x = x_1, x_2, ...` con probabilirades :math:`p_1, p_2, ...` puede ser expresada como una suma de distribuciones delta.
+
+Dada una variable :math:`x`, la función de distribución acumulativa de :math:`x` queda expresada por:
+
+.. math::
+   
+   \mathcal{P}(x) \equiv \int_{x_{min}}^x p(x') dx
+
+la cual constituye una función creciente que varía de 0 a 1. En el caso de las PDF discretas es una función tipo escalera.
+
+El momento n-ésimo de :math:`p(x)` se define como 
+
+.. math::
+   
+   \langle x^n\rangle \equiv \int_{x_{min}}^{x_{max}} x^n p(x)
+
+Lo que muestra que :math:`\langle x^0\rangle`, es la integral de :math:`p(x)`, que es igual a 1. Después, el primer momento (si existe) es conocido como valor madio o de expectancia. Si además existe el segundo momento, podemos definir la varianza :math:`var(x) = \langle(x - \langle x \rangle)^2\rangle`, mientras que la desviación estándar se conoce como la raíz cuadrada de la varianza.
+
 
 
 Reformulación integral de la ecuación de transporte
 ---------------------------------------------------
 
 A partir de la expresión íntegro-diferencial de la ecuación de
-transporte de Boltzmann (`[EqX] <#EqX>`__), es posible reformular los
-términos para arribar a una ecuación completamente integral, lo cual
+transporte de Boltzmann
+
+.. image:: 1.png
+    :width: 200px
+    :align: center
+
+es posible reformular los términos para arribar a una ecuación completamente integral, lo cual
 resulta de particular utilidad para el manejo de soluciones de tipo
 numéricas, necesarias para situaciones realistas, ya que -como se sabe-
 las soluciones analíticas directas sólo son posibles en una cantidad
 miuy limitada de configuraciones.
 
-Operando y reordenando los términos en la ecuación de Boltzmann
-`[EqX] <#EqX>`__, resulta:
+Operando y reordenando los términos en la ecuación de Boltzmann resulta:
 
 .. math::
 
