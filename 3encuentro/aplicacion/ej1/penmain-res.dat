@@ -1,0 +1,45 @@
+
+
+
+   ***********************************
+   **   Program PENMAIN. Results.   **
+   ***********************************
+
+   Simulation time .........................  4.365582E+01 sec
+   Simulation speed ........................  2.290645E+04 showers/sec
+
+
+   Simulated primary showers ...............  1.000000E+06
+
+   Primary particles: photons
+
+   Transmitted primary particles ...........  8.579140E+05
+   Backscattered primary particles .........  5.568100E+04
+   Absorbed primary particles ..............  8.640500E+04
+
+   Fractional transmission ............  1.050391E+00 +- 2.6E-03
+   Fractional backscattering ..........  1.697040E-01 +- 1.8E-03
+   Fractional absorption ..............  8.640500E-02 +- 8.4E-04
+
+   Secondary-particle generation probabilities:
+                   ----------------------------------------------
+                   |  electrons   |   photons    |  positrons   |
+   --------------------------------------------------------------
+   |  transmitted  | 3.937900E-02 | 1.924770E-01 | 5.528000E-03 |
+   |               |  +- 6.1E-04  |  +- 1.6E-03  |  +- 2.2E-04  |
+   --------------------------------------------------------------
+   | backscattered | 7.010000E-04 | 1.140230E-01 | 5.200000E-05 |
+   |               |  +- 8.0E-05  |  +- 1.2E-03  |  +- 2.2E-05  |
+   --------------------------------------------------------------
+   |   absorbed    | 9.004240E-01 | 7.573400E-02 | 8.029700E-02 |
+   |               |  +- 4.5E-03  |  +- 9.0E-04  |  +- 8.2E-04  |
+   --------------------------------------------------------------
+
+   Average deposited energies (bodies):
+      Body    1 ......  2.545878E+06 +- 1.1E+04 eV    (effic. = 1.03E+04)
+
+      Maximum dose ...  1.173857E+05 +- 7.6E+03 eV/g  (effic. = 4.89E+01)
+
+   Last random seeds =  778467860 ,  212901144
+
+   ------------------------------------------------------------------------

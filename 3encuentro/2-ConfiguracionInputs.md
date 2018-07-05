@@ -36,7 +36,7 @@ $$
 
 Una cuádrica reducida queda definida por la expresión:
 
-$$F_r(x,y,z) = I_1 x^2 + I_2 x^2 + I_3 z^2 + I_4 z +I_5 = 0$$
+$$F_r(x,y,z) = I_1 x^2 + I_2 y^2 + I_3 z^2 + I_4 z +I_5 = 0$$
 
 donde $I_i$ para $i=1,2,...,5$ solo puede obtener valores -1, 0 o 1.
 
@@ -266,7 +266,7 @@ Para poder simular primero hay que contar con las fuentes:
 Compilar el ejecutable:
 
 ```
-gfortran -O3 penmain.f penelope.f -o penmain.o
+gfortran -O3 penmain.f -o penmain.o
 ```
 
 Correr la simu

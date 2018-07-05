@@ -1,0 +1,122 @@
+
+
+   *************************************************************
+   **   Program PENMAIN.  Input data and run-time messages.   **
+   *************************************************************
+
+   Date and time:  5th Jul 2018. 15:19:52
+
+   EJERCICIO 1: Fantoma de agua irradiado con haz colimado          
+
+
+   ------------------------------------------------------------------------
+   >>>>>>  Source description.
+
+   Primary particles: photons
+   Initial energy =  1.000000E+07 eV
+
+   Coordinates of centre:     SX0 =  0.000000E+00 cm
+                              SY0 =  0.000000E+00 cm
+                              SZ0 = -1.000000E+00 cm
+
+   *** Conical beam:
+   Beam axis direction:     THETA =  0.000000E+00 deg
+                              PHI =  0.000000E+00 deg
+   Beam aperture:           ALPHA =  1.000000E+01 deg
+
+
+   ------------------------------------------------------------------------
+   >>>>>>  Material data and simulation parameters.
+
+   ****  1st material
+   Material data file: agua-liquida.mat    
+   Electron absorption energy =  2.000000E+05 eV
+     Photon absorption energy =  1.000000E+04 eV
+   Positron absorption energy =  1.000000E+05 eV
+   Electron-positron simulation parameters:
+    C1 = 5.000000E-02,      C2 = 5.000000E-02
+   Wcc = 1.000000E+04 eV,  Wcr = 1.000000E+03 eV
+
+
+   ------------------------------------------------------------------------
+   >>>>>>  Geometry definition.
+   PENGEOM's geometry file: cubo10.geo          
+
+         Maximum allowed step lengths of electrons and positrons
+         and local absorption energies (non-void bodies).
+
+   Body   DSMAX(IB)    EABSB(1,IB)   EABSB(2,IB)   EABSB(3,IB)
+    IB       (cm)          (eV)          (eV)          (eV)
+      1  1.000000E+20  2.000000E+05  1.000000E+04  1.000000E+05
+
+
+   ------------------------------------------------------------------------
+   >>>>>>  Energy and angular distributions of emerging particles.
+   E:       NBE = 300,  EMIN = 0.000000E+00 eV,  EMAX = 1.000000E+07 eV
+   Theta:  NBTH =  90
+   Phi:    NBPH =   1
+
+
+   ------------------------------------------------------------------------
+   >>>>>>  3D Dose distribution.
+   Dose-map enclosure:  XL = -5.000000E+00 cm,  XU =  5.000000E+00 cm
+                        YL = -5.000000E+00 cm,  YU =  5.000000E+00 cm
+                        ZL =  0.000000E+00 cm,  ZU =  2.000000E+01 cm
+   Numbers of bins:   NBDX =  51, NBDY =  51, NBDZ = 101
+
+
+   ------------------------------------------------------------------------
+   >>>>>>  Job characteristics.
+   Random-number generator seeds =          1,          1
+
+   Number of showers to be simulated = 1.000000E+06
+   Computation time available =  3.600000E+03 sec
+
+
+   ------------------------------------------------------------------------
+
+   ------------------------------------------------------------------------
+
+
+
+   ***********************************
+   **   Program PENMAIN. Results.   **
+   ***********************************
+
+   Simulation time .........................  4.365582E+01 sec
+   Simulation speed ........................  2.290645E+04 showers/sec
+
+
+   Simulated primary showers ...............  1.000000E+06
+
+   Primary particles: photons
+
+   Transmitted primary particles ...........  8.579140E+05
+   Backscattered primary particles .........  5.568100E+04
+   Absorbed primary particles ..............  8.640500E+04
+
+   Fractional transmission ............  1.050391E+00 +- 2.6E-03
+   Fractional backscattering ..........  1.697040E-01 +- 1.8E-03
+   Fractional absorption ..............  8.640500E-02 +- 8.4E-04
+
+   Secondary-particle generation probabilities:
+                   ----------------------------------------------
+                   |  electrons   |   photons    |  positrons   |
+   --------------------------------------------------------------
+   |  transmitted  | 3.937900E-02 | 1.924770E-01 | 5.528000E-03 |
+   |               |  +- 6.1E-04  |  +- 1.6E-03  |  +- 2.2E-04  |
+   --------------------------------------------------------------
+   | backscattered | 7.010000E-04 | 1.140230E-01 | 5.200000E-05 |
+   |               |  +- 8.0E-05  |  +- 1.2E-03  |  +- 2.2E-05  |
+   --------------------------------------------------------------
+   |   absorbed    | 9.004240E-01 | 7.573400E-02 | 8.029700E-02 |
+   |               |  +- 4.5E-03  |  +- 9.0E-04  |  +- 8.2E-04  |
+   --------------------------------------------------------------
+
+   Average deposited energies (bodies):
+      Body    1 ......  2.545878E+06 +- 1.1E+04 eV    (effic. = 1.03E+04)
+
+   Last random seeds =  778467860 ,  212901144
+
+
+   ***  END  ***
