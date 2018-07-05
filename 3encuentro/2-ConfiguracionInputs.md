@@ -52,7 +52,7 @@ donde $I_i$ para $i=1,2,...,5$ solo puede obtener valores -1, 0 o 1.
 <!-- page_number: true -->
 ## Cuádricas reducidas no planares
 
-<img src="imgs/2-cuad.png" width="500">
+<img src="imgs/2-cuad.png" width="750" align="middle">
 
 ---
 <!-- page_number: true -->
