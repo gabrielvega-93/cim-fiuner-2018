@@ -101,7 +101,7 @@
 * **Jueves 5:**
   - 9-11: Introducción a PENELOPE.
   - 11-13: PENELOPE: instalación y configuración.
-  - 14-16: Ejemplo de imágen radiográfica utilizando PENELOPE.
+  - 14-16: Ejemplo de imagen radiográfica utilizando PENELOPE.
   - 16-18: Ejercicios prácticos.
 
 * **Viernes 6:**

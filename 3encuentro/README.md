@@ -16,8 +16,6 @@
   - Definición de setup virtual en FLUKA
   - Simulación Monte Carlo de formación de imágenes
 
-
-
 ### Organigrama
 
 * **Jueves 5:**
